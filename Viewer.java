@@ -13,19 +13,19 @@ public class Viewer
                 switch(grid[i][j])
                 {
                     case Maze.EMPTY:
-                        System.out.print("  ");
+                        System.out.print("Why");
                         break;
                         
                     case Maze.WALL:
-                        System.out.print("##");
+                        System.out.print("SO");
                         break;
                         
                     case Maze.START:
-                        System.out.print("^^");
+                        System.out.print("SERIOUS");
                         break;
                         
                     case Maze.END:
-                        System.out.print("$$");
+                        System.out.print("DUDE?");
                         break;
                         
                     case Maze.VISITED:
